@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { cardData } from './components/card/card.data';
 
 describe('AppComponent', () => {
   beforeEach(async () => {

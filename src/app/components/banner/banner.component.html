@@ -1,14 +1,12 @@
 <div class="container px-lg-5">
   <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
-    <div class="m-4 m-lg-5">
-      <h1 class="display-5 fw-bold">{{ banner.heading }}</h1>
-      <p class="fs-4"> {{ banner.subHeading }}</p>
-      <h1>2 way binding</h1>
-          <!-- <input [(ngModel)]="comments" /> -->
-          <!-- <p>Comment is {{comments}}</p> -->
-      <!-- <a class="btn btn-primary btn-lg" [href]="banner.url">{{ banner.cta }}</a> -->
-      <button (click)="handleClick()" class="btn btn-primary btn-lg"> {{ banner.cta }} </button>
+    <div class="card-body">
+      <img src="111.png" alt="okkk" class="portrait-image">
+      <h1 class="display-5 fw-bold  text-white">{{ banner.heading }}</h1>
+      <p class="fs-4  text-white">{{ banner.subHeading }}</p>
+      <button (click)="handleClick()" class="btn btn-primary btn-lg">{{ banner.hirB }}</button>               
+      <button (click)="handleClick()" class="btn btn-primary btn-lg">{{ banner.downB }}</button>
+
     </div>
   </div>
 </div>
-

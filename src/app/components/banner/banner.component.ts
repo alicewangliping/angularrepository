@@ -5,10 +5,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./banner.component.css']
 })
 export class BannerComponent {
+  comments='';
   banner = {
-    heading: "Spring season is back!",
-    subHeading: "And so is our offers too. So why waiting?",
-    cta: "Check out all Products",
+    heading: "LIPING WANG!",
+    subHeading: ".Net  Developer, Tester",
+    hirB: "Hire Me   ",
+    downB: "Download CV",
+ 
     url: "https://www.amazon.ca/"
   }
 
